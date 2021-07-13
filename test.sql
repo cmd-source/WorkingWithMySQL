@@ -21,3 +21,5 @@ SELECT ROUND(AVG(Total)) FROM Invoice
 SELECT ROUND(AVG(Total), 2) FROM Invoice
 
 /*Adding a new SQL Example - Sum function*/
+
+SELECT SUM(UnitPrice*Quantity) FROM InvoiceLine
